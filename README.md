@@ -1,4 +1,9 @@
-# vilka
+CLUSTER_ID=$(uuidgen)
+
+echo $CLUSTER_ID
+
+bin/kafka-storage.sh format -t $CLUSTER_ID -c config/kraft/server.properties
+
 Топики
 
 1xbet
@@ -16,3 +21,6 @@ confluent-hub install confluentinc/kafka-connect-http-source:latest
 Версия Kafka 
 
 kafka-topics --version
+
+
+
