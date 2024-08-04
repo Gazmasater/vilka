@@ -1,4 +1,5 @@
 # vilka
+/etc/kafka/server.properties
 
 /etc/kafka/kraft/server.properties
 
