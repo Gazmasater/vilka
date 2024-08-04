@@ -1,0 +1,13 @@
+{
+    "name": "http-connector-1xbet",
+    "config": {
+      "connector.class": "com.github.jcustenborder.kafka.connect.http.HttpSourceConnector",
+      "tasks.max": "1",
+      "topics": "live_betting_events",
+      "http.url": "https://api.betting-api.com/1xbet/football/live/all",
+      "http.method": "GET",
+      "http.headers": "Content-Type:application/json, Authorization:d3a9b6ea08d14b4589d33a96fd4d74047ed06c29b09243ec9a6ba22c52a4fa0b",
+      "http.poll.interval.ms": "120000"
+    }
+  }
+  
