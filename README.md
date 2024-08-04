@@ -1,1 +1,5 @@
 # vilka
+confluent-hub install confluentinc/kafka-connect-http-source:latest
+
+Версия Kafka 
+kafka-topics --version
