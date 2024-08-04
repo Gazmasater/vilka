@@ -1,4 +1,10 @@
 # vilka
+Топики
+
+1xbet
+
+
+
 /etc/kafka/server.properties
 
 /etc/kafka/kraft/server.properties
