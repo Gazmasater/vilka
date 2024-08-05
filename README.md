@@ -1,26 +1,5 @@
-CLUSTER_ID=$(uuidgen)
+После установки java
 
-echo $CLUSTER_ID
-
-bin/kafka-storage.sh format -t $CLUSTER_ID -c config/kraft/server.properties
-
-Топики
-
-1xbet
-
-
-
-/etc/kafka/server.properties
-
-/etc/kafka/kraft/server.properties
-
-log.dirs=/tmp/kraft-combined-logs
-
-confluent-hub install confluentinc/kafka-connect-http-source:latest
-
-Версия Kafka 
-
-kafka-topics --version
-
-
-
+cd /usr/local/kafka/kafka-3.8.0-src
+sudo ./gradlew clean
+sudo ./gradlew build
