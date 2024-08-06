@@ -21,4 +21,5 @@ kafka-server-stop.sh
 
 Просмотр логов
 
-tail -f kafka.log
+tail -f ~/kafka.log
+
