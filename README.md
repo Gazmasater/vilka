@@ -5,7 +5,9 @@ export PATH=$PATH:/usr/local/go/bin
 source ~/.bashrc
 
 
-Запуск в фоновом режиме
+Запуск Кафки
+
+kafka-server-start.sh /usr/local/kafka/kafka_2.13-3.8.0/config/kraft/server.properties
 
 java -jar target/kafdrop-4.0.3-SNAPSHOT.jar --kafka.brokerConnect=localhost:9092
 
