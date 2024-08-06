@@ -25,4 +25,9 @@ kafka-server-stop.sh
 
 tail -f /usr/local/kafka/kafka_2.13-3.8.0/logs/kafka.log
 
+Инициализация нового Maven проект:
+
+mvn archetype:generate -DgroupId=com.example.kafka -DartifactId=my-connector -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
 
